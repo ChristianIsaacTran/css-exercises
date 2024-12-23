@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/*
+    note: chaining checks both/multiple attribute tags
+    by putting them together. Ex:
+
+    .avatar.proportioned{
+    css styling here
+    }
+
+    decendant combinator checks for the final tag if the other tags
+    are decendants of the previous tags. Ex:
+
+    .avatar .proportioned{
+    css styling here
+    }
+*/
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
