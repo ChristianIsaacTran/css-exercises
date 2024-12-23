@@ -7,6 +7,16 @@
     font-size: 24px;
 }
 
+/*
+    Instead of using a chaining selector when
+    defining the font-size: 24px, since our #fourth id
+    and the .odd.third both have font-size: 24px in it, we could
+    condense the code by giving the fourth element in the html
+    also the class="third" to reduce the repetition of the code.
+    See solution.html and solution.css in the solutions folder
+    for an example/explanation of that concept.
+*/
+
 #second {
     color: rgb(0,0,255);
     font-size: 36px;
