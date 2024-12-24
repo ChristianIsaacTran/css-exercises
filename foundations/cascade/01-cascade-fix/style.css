@@ -34,7 +34,9 @@ since specificity is the same between .small-para and .para
   font-weight: bold;
 } 
 
-.text {
+
+
+div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
@@ -48,7 +50,7 @@ to make it the last one declared, making it have priority since all the other
 declarations have equal priority.
 */
 
-.child {
+div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
