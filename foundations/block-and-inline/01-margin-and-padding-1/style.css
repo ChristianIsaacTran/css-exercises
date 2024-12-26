@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 50px;
+  margin: 15px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .three {
@@ -23,6 +23,14 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 40px;
+  margin-left: auto;
+  /*
+  Remember, using auto on left or right margin automatically aligns the element if
+  there is a width defined. If we wanted to align the element in the center, 
+  we would also put a margin-right:auto; or set the shorthand to margin: 0px auto 0px;.
+  In this case, we wanted the element of DIV THREE to be right aligned, so we push it
+  from the left by defining margin-left:auto; to automatically align it and push it away
+  from the left side.
+  */
 }
