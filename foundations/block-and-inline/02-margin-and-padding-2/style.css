@@ -8,7 +8,7 @@ body {
   background: #fff;
   margin: 16px auto;
   /*added padding to increase white card size*/
-  padding: 20px; 
+  padding: 20px 20px 5px; 
 }
 
 .title {
@@ -20,14 +20,15 @@ body {
 .content {
   display:block;
   background: #e3f4ff;
-  padding: 11px;
+  padding: 20px 11px;
+  text-align:left;
 }
 
 .button-container {
   display: block;
   background: #e3f4ff;
   padding: 11px;
-  margin: 15px auto;
+  margin: 14px auto;
   text-align: center;
 }
 
@@ -36,5 +37,5 @@ button {
   background: white;
   border: 1px solid #eee;
   padding: 15px 30px;
-  margin: 5px auto;
+  margin: 0px auto;
 }
