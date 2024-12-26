@@ -4,7 +4,7 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 500px;
   background: #fff;
   margin: 16px auto;
   /*added padding to increase white card size*/
@@ -18,15 +18,19 @@ body {
 }
 
 .content {
+  display:block;
   background: #e3f4ff;
-
+  padding: 11px;
 }
 
 .button-container {
+  display: block;
   background: #e3f4ff;
+  
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
 }
