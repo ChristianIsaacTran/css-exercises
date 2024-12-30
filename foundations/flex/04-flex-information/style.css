@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /*my attempt*/
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +28,51 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*my attempt*/
+.container {
+  display: flex;
+  gap: 52px;
+
+  /*solution changes:*/
+  justify-content: center;
+  
+}
+
+.berryOne, .berryTwo, .berryThree, .berryFour {
+  /*
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  */
+  max-width: 200px;
+  
+}
+
+
+/*
+.text {
+  text-align: center;
+}
+*/
+
+/*solution changes:*/
+body {
+  text-align: center;
+}
+
+/*weirdly, setting the text-align: center; to
+an image's parent element also aligns the image
+iteself so thats why .text did not do anything
+to the images, but setting text-align to the 
+body element does. But the side effect is 
+that setting the body to text-align: center
+makes every text inside the body centered.
+My solution by setting a flexbox I feel is 
+better, but thats a weird thing to do.
+
+Summary: setting a text-align:center property 
+to a parent HTML element also centers images.
+Honestly, instead of that you should use the
+margin: auto for horizontal centering.*/ 
