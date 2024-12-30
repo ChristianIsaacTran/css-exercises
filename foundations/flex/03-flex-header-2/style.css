@@ -12,6 +12,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /*First attempt*/
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+
+  /*solution changes:*/
+  padding: 8px;
 }
 
 .profile-image {
@@ -45,4 +53,34 @@ a {
 
 ul {
   list-style-type: none;
+
+  /*First attempt*/
+  display: flex;
+  gap: 16px;
+
+  /*solution changes:*/
+  margin: 0;
+  padding: 0;
+  /*remember, for lists they have a default
+  starting padding and margin you need to get
+  rid of/work with.*/
+  
+}
+
+/*first attempt*/
+.leftside {
+  display: flex;
+  align-items: center;
+  
+  /*solution changes:*/
+  gap: 16px;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+  /*gap: 8px;*/
+
+  /*solution changes:*/
+  gap: 16px;
 }
