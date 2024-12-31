@@ -24,3 +24,53 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*my attempt*/
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+
+  /*omg I did not forget this time.
+  The list is bleeding off the screen
+  a little and I finally remembered that
+  lists start with a margin and padding!!*/
+  margin: 0px;
+  padding: 0px;
+
+  gap: 10px;
+
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.content {
+  /*solution changes:*/
+  flex: 1;
+
+  /*my attempt*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+/*solution changes: */
+body {
+  display: flex;
+  flex-direction: column;
+}
