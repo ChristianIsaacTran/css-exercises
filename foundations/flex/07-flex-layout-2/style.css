@@ -38,6 +38,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+  /*my attempt*/
+  max-width: 400px;
 }
 
 /* my attempt */
@@ -45,6 +48,13 @@ body {
   display: flex;
   background-color: white;
   flex: 1 0;
+}
+
+.middlecontainer.content{
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 ul {
@@ -57,11 +67,16 @@ li {
   margin: 20px 5px;
 }
 
-
 a {
   text-decoration: none;
   font-size: 24px;
   color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
