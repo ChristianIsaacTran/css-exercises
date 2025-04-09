@@ -42,6 +42,8 @@
 }
 
 .sidebar {
+  display: grid;
+  gap: 50px;
   background-color: #C50208;
   grid-row: 2 / 4;
 
@@ -53,6 +55,7 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  align-content: center;
 }
 
 
@@ -61,6 +64,7 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  align-content: center;
 }
 
 .nav {
@@ -74,6 +78,11 @@
   font-size: 16px;
   text-transform: uppercase;
   list-style-type: none;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .article {
